@@ -8,52 +8,54 @@ All colors MUST be HSL.
 
 @layer base {
   :root {
-    /* TROPIC Web3 Theme - Stellar Inspired */
-    --background: 220 25% 7%;
+    /* CONNECTUS Futuristic Theme - Nexus Interface */
+    --background: 222 84% 4.9%;
     --foreground: 210 40% 98%;
 
-    --card: 220 20% 10%;
+    --card: 222 84% 8%;
     --card-foreground: 210 40% 98%;
 
-    --popover: 220 20% 10%;
+    --popover: 222 84% 8%;
     --popover-foreground: 210 40% 98%;
 
-    --primary: 250 90% 65%;
-    --primary-foreground: 220 25% 7%;
+    --primary: 195 100% 50%;
+    --primary-foreground: 222 84% 4.9%;
 
-    --secondary: 220 15% 15%;
+    --secondary: 217 32.6% 17.5%;
     --secondary-foreground: 210 40% 98%;
 
-    --muted: 220 15% 15%;
-    --muted-foreground: 215 20% 65%;
+    --muted: 217 32.6% 17.5%;
+    --muted-foreground: 215 20.2% 65.1%;
 
-    --accent: 280 80% 70%;
-    --accent-foreground: 220 25% 7%;
+    --accent: 265 89% 78%;
+    --accent-foreground: 222 84% 4.9%;
 
-    --success: 142 76% 36%;
+    --success: 158 64% 52%;
     --success-foreground: 210 40% 98%;
 
     --warning: 48 96% 53%;
-    --warning-foreground: 220 25% 7%;
+    --warning-foreground: 222 84% 4.9%;
 
     --destructive: 0 84% 60%;
     --destructive-foreground: 210 40% 98%;
 
-    --border: 220 15% 20%;
-    --input: 220 15% 20%;
-    --ring: 250 90% 65%;
+    --border: 217 32.6% 17.5%;
+    --input: 217 32.6% 17.5%;
+    --ring: 195 100% 50%;
 
-    --radius: 0.5rem;
+    --radius: 0.75rem;
 
-    /* Stellar Gradients */
-    --gradient-primary: linear-gradient(135deg, hsl(var(--primary)), hsl(var(--accent)));
-    --gradient-cosmic: linear-gradient(135deg, hsl(250 90% 65%), hsl(280 80% 70%), hsl(320 70% 75%));
-    --gradient-card: linear-gradient(145deg, hsl(220 20% 10%), hsl(220 15% 12%));
+    /* Nexus Gradients */
+    --gradient-primary: linear-gradient(135deg, hsl(195 100% 50%), hsl(265 89% 78%));
+    --gradient-nexus: linear-gradient(135deg, hsl(195 100% 50%), hsl(265 89% 78%), hsl(195 100% 50%));
+    --gradient-card: linear-gradient(145deg, hsl(222 84% 8%), hsl(217 32.6% 17.5%));
+    --gradient-hover: linear-gradient(135deg, hsl(195 100% 50% / 0.1), hsl(265 89% 78% / 0.1));
     
-    /* Stellar Effects */
-    --glow-primary: 0 0 20px hsl(var(--primary) / 0.3);
-    --glow-accent: 0 0 30px hsl(var(--accent) / 0.2);
-    --shadow-stellar: 0 10px 40px -10px hsl(var(--primary) / 0.1);
+    /* Nexus Effects */
+    --glow-primary: 0 0 20px hsl(195 100% 50% / 0.4);
+    --glow-accent: 0 0 30px hsl(265 89% 78% / 0.3);
+    --shadow-nexus: 0 10px 40px -10px hsl(195 100% 50% / 0.2);
+    --border-glow: 0 0 10px hsl(195 100% 50% / 0.3);
     
     /* Animations */
     --transition-smooth: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
